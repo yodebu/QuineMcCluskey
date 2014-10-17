@@ -1,0 +1,92 @@
+CS302 Programming Assignment
+
+Student names:
+==============
+Snigdha Majhee (13/CSE/07)
+
+
+
+Quine Mccluskey Algorithm
+========================================
+Sources:
+---------
+main.cpp
+minterm.cc
+
+headers(self-developed )
+-------
+minterm.h
+
+
+
+
+OS COMPATIBILITY
+-----------------
+
+all unix systems, no Windows OS supported, but can be built using the source code provided.
+
+
+
+
+Instructions to run and test the program:
+-----------------------------------------
+
+1) Run make all to compile and create the qm executable
+2) Run the executable ./qm <filename>
+
+or
+
+
+1) Change the permissions for the 'execute.sh' script by entering the following command in the terminal, chmod +x execute.sh
+2) now execute the shell script, './execute.sh', this script will do everything for you. 
+
+
+
+
+
+Input file type
+----------------
+<filename> must be replaced with an input text file of the following format:
+4   // NO. OF VARIABLES
+6   // NO. OF INPUTS
+0001 1
+0010 1
+0011 1
+0110 1
+0111 1
+1011 1
+
+the inputs in the main program has to be given in binary numbers, and 0 or 1 is added after each number with a space where, 0 denotes don't care values and 1 denotes normal values.
+
+Compiler
+---------
+
+make sure your Operating System has a supporting compiler installed in it.
+
+Compiler used - g++
+
+
+
+Additional Notes:
+------------------------------------------
+1) To clean up all the output files, run make clean
+
+
+
+How the Program works
+-----------------------
+
+The Program is built on the Quine-McCluskey Algorithm, the main Algorihm Minimizer program takes its input as text files with the attributes discussed above.
+A program has been added which converts the decimal numbers to binary numbers and supplies them to the main program as a text file, named "tcase.txt".
+
+The main program is well commented for each functions and methods, whereas the "minterm.cc" is used for the class creation for the minterms and is also well commented.
+
+The "minterm.h" acts as the header file and important functions for comparison in the table has been declared there. 
+All the codes are well commented and indented.
+
+
+
+
+##GUIDED BY - Debapriya Das, 12/CS/14
+
+
