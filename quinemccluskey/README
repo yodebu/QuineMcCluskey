@@ -1,8 +1,3 @@
-CS302 Programming Assignment
-
-Student names:
-==============
-Snigdha Majhee (13/CSE/07)
 
 
 
@@ -56,7 +51,9 @@ Input file type
 0111 1
 1011 1
 
-the inputs in the main program has to be given in binary numbers, and 0 or 1 is added after each number with a space where, 0 denotes don't care values and 1 denotes normal values.
+the inputs in the main program has to be given in binary numbers, 
+and 0 or 1 is added after each number with a space where, 
+0 denotes don't care values and 1 denotes normal values.
 
 Compiler
 ---------
@@ -76,17 +73,25 @@ Additional Notes:
 How the Program works
 -----------------------
 
-The Program is built on the Quine-McCluskey Algorithm, the main Algorihm Minimizer program takes its input as text files with the attributes discussed above.
-A program has been added which converts the decimal numbers to binary numbers and supplies them to the main program as a text file, named "tcase.txt".
+The Program is built on the Quine-McCluskey Algorithm,
+the main Algorihm Minimizer program takes its input 
+as text files with the attributes discussed above.
 
-The main program is well commented for each functions and methods, whereas the "minterm.cc" is used for the class creation for the minterms and is also well commented.
+A program has been added which converts
+the decimal numbers to binary numbers
+and supplies them to the main program as a text file,
+named "tcase.txt".
 
-The "minterm.h" acts as the header file and important functions for comparison in the table has been declared there. 
+The main program is well commented for each functions and methods, 
+whereas the "minterm.cc" is used for the class creation for the minterms and is also well commented.
+
+The "minterm.h" acts as the header file 
+and important functions for comparison in the table has been declared there. 
 All the codes are well commented and indented.
 
 
 
 
-##GUIDED BY - Debapriya Das, 12/CS/14
+@Author  - Debapriya Das
 
 
